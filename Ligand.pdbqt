@@ -1,0 +1,28 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N1_2120  and  C1'_2128 
+REMARK    2  A    between atoms: C1_2136  and  C2_2138 
+REMARK    3  A    between atoms: C2_2138  and  C3_2140 
+REMARK    4  A    between atoms: C1_2142  and  C2_2144 
+REMARK    5  A    between atoms: C2_2144  and  C3_2146 
+ROOT
+HETATM    1  N1  UDP A 401      14.964 -13.429  23.553  0.59 78.46    -0.254 N 
+HETATM    2  C2  UDP A 401      15.620 -14.467  24.190  0.59 79.02     0.354 C 
+HETATM    3  N3  UDP A 401      14.895 -15.477  24.791  0.59 78.86    -0.153 NA
+HETATM    4  C4  UDP A 401      13.517 -15.447  24.760  0.59 79.72     0.285 C 
+HETATM    5  C5  UDP A 401      12.868 -14.396  24.122  0.59 79.40     0.082 C 
+HETATM    6  C6  UDP A 401      13.612 -13.301  23.697  0.59 78.92     0.087 C 
+HETATM    7  O2  UDP A 401      16.849 -14.497  24.221  0.59 79.38    -0.244 OA
+HETATM    8  O4  UDP A 401      12.871 -16.347  25.294  0.59 80.84    -0.265 OA
+ENDROOT
+BRANCH   1   9
+HETATM    9  C1' UDP A 401      15.741 -12.344  22.922  0.59 78.39     0.242 C 
+HETATM   10  C2' UDP A 401      15.795 -12.481  21.408  0.59 77.12     0.234 C 
+HETATM   11  O2' UDP A 401      17.133 -12.433  20.981  0.59 79.70    -0.216 OA
+HETATM   12  C3' UDP A 401      15.071 -11.272  20.859  0.59 78.38     0.214 C 
+HETATM   13  C4' UDP A 401      14.820 -10.369  22.054  0.59 80.82     0.150 C 
+HETATM   14  O3' UDP A 401      15.922 -10.599  19.961  0.59 79.05    -0.218 OA
+HETATM   15  C5' UDP A 401      13.378  -9.877  22.107  0.59 78.55     0.035 C 
+HETATM   16  O4' UDP A 401      15.129 -11.104  23.221  0.59 82.29    -0.334 OA
+ENDBRANCH   1   9
+TORSDOF 5
